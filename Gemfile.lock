@@ -88,6 +88,9 @@ GEM
       turbo-rails
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
+    image_processing (1.12.0)
+      mini_magick (>= 4.9.5, < 5)
+      ruby-vips (>= 2.0.17, < 3)
     jbuilder (2.10.1)
       activesupport (>= 5.0.0)
     listen (3.3.3)
@@ -102,6 +105,7 @@ GEM
       mimemagic (~> 0.3.2)
     method_source (1.0.0)
     mimemagic (0.3.5)
+    mini_magick (4.10.1)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.2)
@@ -150,6 +154,8 @@ GEM
       ffi (~> 1.0)
     redis (4.0.2)
     regexp_parser (1.8.2)
+    ruby-vips (2.0.17)
+      ffi (~> 1.9)
     rubyzip (2.3.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -213,6 +219,7 @@ DEPENDENCIES
   byebug
   capybara (>= 3.26)
   hotwire-rails
+  image_processing
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)

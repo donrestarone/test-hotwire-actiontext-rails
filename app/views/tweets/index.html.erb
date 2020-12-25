@@ -9,12 +9,12 @@
     </tr>
   </thead>
 
-  <tbody>
+  <div class="d-flex ">
     <%= turbo_stream_from "tweets" %>
     <%= turbo_frame_tag "tweets" do %>
       <%= render @tweets %>
     <% end %>
-  </tbody>
+  </div>
 </table>
 
 <br>
