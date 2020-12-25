@@ -5,7 +5,7 @@
     </div>
     <div class="card-footer bg-transparent border-success">
       <%= link_to 'Show', tweet, class: 'btn btn-sm btn-primary text-white' %>
-      <%= link_to 'Edit', edit_tweet_path(tweet), class: 'btn btn-sm btn-warning text-white' %>
+      <%= link_to 'Edit', edit_tweet_path(tweet), class: 'btn btn-sm btn-warning text-white', remote: true %>
       <%= link_to 'Destroy', tweet, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-sm btn-danger text-white' %>
     </div>
   </div>
