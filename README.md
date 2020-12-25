@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo was used to build a simple real-time twitter timeline with rich text capabilities
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![ezgif com-video-to-gif(2)](https://user-images.githubusercontent.com/35935196/103138167-d73f6d00-469d-11eb-9136-ebbd85d448b4.gif)
